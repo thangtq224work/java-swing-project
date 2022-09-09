@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    ul>li{
+        display: inline-block;
+        padding: 20px;
+        background-color: aquamarine;
+    }
+    ul>li>a{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        color: red;
+    }
+    ul#items{
+        position: absolute;
+        display: none;
+    }
+    #thongKe:hover ul>li{
+        display: inline-block;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hệ thống quản lý trung tâm đào tạo tin học EduSys</h1>
+    <ul>
+        <li><a href="">Giao diện chính</a></li>
+        <li><a href="">Quản lý nhân viên</a></li>
+        <li><a href="">Quản lý người học</a></li>
+        <li><a href="">Quản lý chuyên đề</a></li>
+        <li><a href="">Quản lý khóa học</a></li>
+        <li><a href="">Quản lý học viên</a></li>
+        <li><a href="" id="thongKe">Tổng hợp thống kê</a>
+            <ul id="items">
+                <li><a href="">Bảng điểm</a></li>
+                <li><a href="">Doanh thu</a></li>
+                <li><a href="">Người học</a></li>
+                <li><a href="">Khóa học</a></li>
+
+            </ul>
+        </li>
+        <li><a href="">Đăng nhập</a></li>
+        <li><a href="">Đăng xuất</a></li>
+        <li><a href="">Giới thiệu</a></li>
+        <li><a href="">Hướng dẫn</a></li>
+    </ul>
+</body>
+
+</html>
